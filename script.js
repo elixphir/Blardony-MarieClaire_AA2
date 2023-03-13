@@ -1,7 +1,7 @@
 var x = 0;
 while(x < 50){
     document.getElementById("loops").innerHTML += (x+1)+ ", ";
-    x++;
+    x = x + 2;
 }
 document.getElementById("loops").innerHTML += "51 <br> <br>";
 
